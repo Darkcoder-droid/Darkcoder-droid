@@ -104,37 +104,71 @@ Shashank Kontikal
 </div>
 
 ## `$ git log --notable-projects`
-
+ 
 ```
-● sign-language-glove
+● kelsa.ai 🎯
+│   Self-hosted career copilot for students & early-career devs —
+│   tracks skills, applications, resume feedback, and advisor chats
+│   in one place. Local JSON storage, automation-friendly endpoints,
+│   browser-based auth with isolated per-user sessions.
+│                                     [FastAPI · Python · Self-hosted]
+│
+● BeanVoyage ☕
+│   AI-powered cafe ecosystem — mood & health profiling,
+│   personalized menu recommendations, smart bespoke &
+│   surprise bundle generation. Frontend live, AI engine in dev.
+│                                          [AI · Next.js · TypeScript]
+│
+● why.fi 🎭
+│   Webcam-based emotion-mimic arcade game — match target facial
+│   expressions live on camera, scored in real-time via MediaPipe.
+│   Meme-heavy pixel-art UI with WebSocket-driven FastAPI backend.
+│                              [FastAPI · React · Vite · MediaPipe]
+│
+● sign-language-glove 🤟
 │   Real-time ASL translation using flex sensors + ML inference,
-│   mapped to spoken output                          [IoT · AI · Python]
+│   mapped to spoken output                [IoT · AI · Python]
 │
-● lora-mesh-comm
-│   Off-grid LoRa mesh communication for low-latency
-│   edge environments                                [IoT · LoRa · C]
-│
-● ml-pipeline-toolkit
-    Modular FastAPI + PyTorch inference pipeline
-    with REST endpoints                              [ML · Python · API]
+● lora-mesh-comm 📻
+    Off-grid LoRa mesh communication for low-latency
+    edge environments                      [IoT · LoRa · C]
 ```
+ 
+<div align="center">
+ 
+[![kelsa.ai](https://img.shields.io/badge/kelsa.ai-🎯%20Career%20Copilot-7efff5?style=flat-square&logo=rocket&logoColor=black)](https://github.com/Darkcoder-droid/kelsa.ai)
+[![BeanVoyage](https://img.shields.io/badge/BeanVoyage-☕%20AI%20Cafe%20System-7efff5?style=flat-square&logo=coffeescript&logoColor=black)](https://github.com/Darkcoder-droid/BeanVoyage)
+[![why.fi](https://img.shields.io/badge/why.fi-🎭%20Emotion%20Arcade-ffe066?style=flat-square&logo=faceapp&logoColor=black)](https://github.com/Darkcoder-droid/why.fi)
+ 
+</div>
 
 ---
 
 ## `$ ./github-stats.sh`
-
-> ⚡ Stats are auto-generated every 12 hours via **GitHub Actions** and stored as SVGs directly in this repo — no third-party rate limits, zero broken images.
-
+ 
 <div align="center">
-<img src="metrics.svg" width="100%"/>
+ 
+<!-- These numbers update live via GitHub's own badge infrastructure -->
+ 
+![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDarkcoder-droid&query=public_repos&label=Public%20Repos&color=7efff5&style=flat-square&logo=github&logoColor=white&labelColor=0d1117)
+![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDarkcoder-droid&query=followers&label=Followers&color=ffe066&style=flat-square&logo=github&logoColor=white&labelColor=0d1117)
+![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDarkcoder-droid&query=following&label=Following&color=ff6b6b&style=flat-square&logo=github&logoColor=white&labelColor=0d1117)
+
+ 
 </div>
 
+### Top Languages
+ 
 <div align="center">
-<img src="metrics.achievements.svg" width="55%"/>
+ 
+![Python](https://img.shields.io/badge/Python-34%25-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-22%25-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-16%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Dart](https://img.shields.io/badge/Dart-12%25-0175C2?style=flat-square&logo=dart&logoColor=white)
+![C](https://img.shields.io/badge/C%2FC%23-10%25-00599C?style=flat-square&logo=c&logoColor=white)
+ 
 </div>
-
-<details>
-<summary><b>🔧 One-time setup to enable stats above</b></summary>
+ 
 
 **Step 1 — Create a GitHub token**
 1. Go to https://github.com/settings/tokens → Generate new token (classic)
