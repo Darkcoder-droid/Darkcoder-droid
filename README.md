@@ -170,60 +170,7 @@ Shashank Kontikal
 </div>
  
 
-**Step 1 — Create a GitHub token**
-1. Go to https://github.com/settings/tokens → Generate new token (classic)
-2. Tick only `public_repo` scope → Copy the token
 
-**Step 2 — Add it as a repo secret**
-1. In your `Darkcoder-droid` repo → Settings → Secrets and variables → Actions
-2. New repository secret → Name: `METRICS_TOKEN` → paste your token
-
-**Step 3 — Enable workflow permissions**
-1. Settings → Actions → General → Workflow permissions → select **Read and write**
-
-**Step 4 — Create `.github/workflows/metrics.yml`** with this content:
-
-```yaml
-name: Metrics
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches: ["main"]
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Darkcoder-droid
-          template: classic
-          base: header, activity, community, repositories
-          config_timezone: Asia/Kolkata
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          filename: metrics.svg
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Darkcoder-droid
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          filename: metrics.achievements.svg
-```
-
-**Step 5** — Go to Actions tab → Run the workflow manually once. Done! ✅
-
-</details>
 
 ---
 
