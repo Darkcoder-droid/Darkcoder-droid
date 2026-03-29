@@ -113,10 +113,10 @@ Shashank Kontikal
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Darkcoder-droid&theme=transparent&hide_border=true&include_all_commits=true&count_private=false&title_color=7efff5&text_color=6b6b8a&icon_color=7efff5&bg_color=0d1117&rank_icon=github&show_icons=true" height="165"/>
-<img src="https://nirzak-streak-stats.vercel.app/?user=Darkcoder-droid&theme=transparent&hide_border=true&ring=7efff5&fire=ff6b6b&currStreakLabel=7efff5&background=0d1117&stroke=1e1e2e&sideLabels=6b6b8a&dates=6b6b8a&sideNums=e8e8f0&currStreakNum=e8e8f0" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Darkcoder-droid&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&cache_seconds=1800" height="165"/>
+<img src="https://streak-stats.demolab.com/?user=Darkcoder-droid&theme=tokyonight&hide_border=true&cache_seconds=1800" height="165"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Darkcoder-droid&theme=transparent&hide_border=true&include_all_commits=true&count_private=false&layout=compact&title_color=7efff5&text_color=6b6b8a&bg_color=0d1117&langs_count=8" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Darkcoder-droid&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&cache_seconds=1800" height="150"/>
 
 </div>
 
@@ -126,7 +126,7 @@ Shashank Kontikal
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Darkcoder-droid&theme=onestar&no-frame=true&no-bg=true&margin-w=6&column=7"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Darkcoder-droid&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=6&rank=SSS,SS,S,AAA,AA,A,B"/>
 
 </div>
 
@@ -136,7 +136,7 @@ Shashank Kontikal
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Darkcoder-droid&bg_color=0d1117&color=7efff5&line=7efff5&point=ff6b6b&area=true&area_color=7efff5&hide_border=true&radius=4" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Darkcoder-droid&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
 </div>
 
