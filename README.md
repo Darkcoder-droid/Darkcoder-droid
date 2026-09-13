@@ -1,28 +1,48 @@
-<div align="center">
+# Shashank Kontikal
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=140&section=header&text=Shashank%20Kontikal&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=45&desc=AI%20%7C%20IoT%20%7C%20Edge%20Systems%20%7C%20Interactive%20Prototypes&descAlignY=72&descSize=15" width="100%"/>
+**Systems & Creative Technologist** · Bengaluru, IN  
+Bridging physical sensor input with local machine learning and low-latency network protocols.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2800&pause=1200&color=7EFFF5&center=true&vCenter=true&repeat=true&width=620&lines=Building+at+the+intersection+of+silicon+and+intelligence.;Low-latency+inference+%C2%B7+Off-grid+mesh+%C2%B7+Applied+AI;Turning+sensor+streams+into+real-time+decisions." alt="Typing SVG" />
-
-<br/>
-
-[![Focus](https://img.shields.io/badge/Focus-Local_AI_%26_Edge_IoT-0d1117?style=flat-square&logo=target&logoColor=7efff5)](https://github.com/Darkcoder-droid)
-[![Location](https://img.shields.io/badge/Base-Bengaluru%2C_India-0d1117?style=flat-square&logo=googlemaps&logoColor=ffe066)](https://maps.google.com/?q=Bengaluru)
-[![Stack](https://img.shields.io/badge/Stack-Python_·_C_·_FastAPI_·_PyTorch-0d1117?style=flat-square&logo=codewars&logoColor=ff6b6b)](https://github.com/Darkcoder-droid)
-[![Connect](https://img.shields.io/badge/Status-Open_to_Collaborations-0d1117?style=flat-square&logo=statuspage&logoColor=7efff5)](mailto:shashankkontikal07@gmail.com)
-
-</div>
+[Email](mailto:shashankkontikal07@gmail.com) · [GitHub](https://github.com/Darkcoder-droid) · [LinkedIn](https://linkedin.com/in/ShashankKontikal)
 
 ---
 
-### ⚡ Architectural Blueprint
+### Engineering Focus & Active Runtimes
 
-I build low-latency systems where physical environments drive intelligent software. My focus bridges **sensor-level capture (LoRa, Flex, Vision)** with **edge-optimized inference pipelines** and production backend microservices.
+* **Primary Focus:** Edge AI, offline-first IoT mesh topologies, sensor-to-model inference pipelines.
+* **Local Compute Nodes:**
+  * **M1 Pro (10-core / 16GB):** Model quantization, PyTorch training, local LLM evaluation (Ollama/MLX).
+  * **M2 Air:** Lightweight edge service orchestration, portable testing, client-side UI tooling.
+* **Core Toolchain:** Python (FastAPI, PyTorch), C/C++ (Embedded, RF), TypeScript, MediaPipe, LoRa Sub-GHz.
 
-```bash
-shashank@edge-node:~$ inxi -Fxz
-System    :: Polyglot Prototyper (Bengaluru, IN)
-Compute   :: Apple M1 Pro (Inference / Heavy Builds) · Apple M2 (Mobile Workstation)
-Core      :: Embedded Systems, Applied Machine Learning, Edge Inference
-Specialty :: Bridging air-gapped physical inputs to real-time neural models
-Telemetry :: Self-hosted runtimes, offline-first architectures, low-jitter streams
+---
+
+### Selected Engineering Projects
+
+#### [kelsa.ai](https://github.com/Darkcoder-droid/kelsa.ai) — Self-Hosted Career Copilot
+*Self-contained productivity daemon tracking applications, resumes, and advisor telemetry.*
+* Built with an **air-gapped, offline-first design pattern**; relies on isolated, zero-leak per-user JSON datastores rather than external third-party DB dependencies.
+* Exposes an asynchronous FastAPI layer tailored for low-overhead cron tasks and automation scripts.
+* **Stack:** Python, FastAPI, AsyncIO, Local JSON Storage Engine
+
+#### Sign Language Translation Glove — Physical Computing & Edge ML
+*Hardware-to-speech translation pipeline converting raw physical flexion into synthetic voice output.*
+* Designed a 5-channel analog flex sensor array routed through microcontrollers for real-time gesture telemetry.
+* Trained and deployed a low-footprint classification model mapping spatial finger configurations directly to ASL tokens with sub-100ms inference latency.
+* **Stack:** Embedded C, PyTorch Edge, Signal Processing, Hardware I/O
+
+#### [why.fi](https://github.com/Darkcoder-droid/why.fi) — Real-Time Spatial Facial Arcade
+*Sub-second facial landmark matching engine running over raw video streams.*
+* Uses MediaPipe mesh extraction to compute Euclidean coordinate distances against target expression vectors.
+* Employs full-duplex WebSockets over FastAPI to process frame metadata with near-zero input lag.
+* **Stack:** FastAPI, WebSockets, Google MediaPipe, React, Vite
+
+#### LoRa Mesh Comm — Off-Grid Low-Power Telemetry
+*Decentralized, packet-routed peer-to-peer radio communication system.*
+* Implemented multi-hop mesh routing over Sub-GHz bands for communication in cellular-dead zones without central gateway dependencies.
+* Tuned duty cycles and packet fragmentation to prioritize ultra-low battery consumption.
+* **Stack:** C/C++, LoRa RF95, Microcontroller Firmware, Mesh Routing
+
+---
+
+### Technical Competencies
